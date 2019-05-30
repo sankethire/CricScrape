@@ -103,7 +103,7 @@ for link in links:
 			for p in range(1,len(bowlers_data)):
 				writer.writerow(bowlers_data[p])
 			writer.writerow(["\n"])	
-		bowlFile.close()
+		# bowlFile.close()
 	except:
 		# print(link.split("=")[1])
 
@@ -155,8 +155,10 @@ for link in links:
 		for p1 in blrs:
 			print(p1)
 
-
-
-		
-
-
+		with open ('q_bowl_Score.csv', "a") as bowlFile:
+			writer = csv.writer(bowlFile)
+			writer.writerow([players[gamer2]]) 
+			gamer2 += 1
+			for p in range(1,len(bowlers_data)):
+				writer.writerow(bowlers_data[p])
+			writer.writerow(["\n"])			
