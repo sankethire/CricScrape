@@ -15,7 +15,7 @@ def cumulify(lis):
         total += x
         yield total
 
-#collects data of all cricket players from A to Z (i.e. 65 to 91 in ascii code)
+#collects data of all cricket players from A to Z (i.e. 65 to 90 in ascii code)
 years = []
 for j in range(1970, 2020):
 	years.append(j)
@@ -24,7 +24,7 @@ with open ('ODI_player_scores.csv', "a") as writeFile:
 		writer.writerow(["Player's Name", "Nationality"] + years)
 
 
-for i in range(84, 91):
+for i in range(65, 91):
 	complete_score_data=[]
 
 	website = "http://www.howstat.com/cricket/Statistics/Players/PlayerList.asp?Group=" + chr(i)
