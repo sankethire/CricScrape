@@ -1,1 +1,0 @@
-rm ODI_players/*.csv
