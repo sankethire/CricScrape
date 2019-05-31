@@ -1,4 +1,4 @@
-# CRIC$CRAP
+# CRIC$CRAPE
 ### A scraper which provides ODI cricket player runs yearwise 
 
 ### How to run
