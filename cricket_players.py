@@ -1,7 +1,7 @@
 ########################################################################################################
-# 										Author: Sanket Hire											   #
-# 						Aim: To scrap the players data in the ODI cricket 			                   #
-# 							Source for scraping: http://howstat.com/            					   #
+# 				       	 Author: Sanket Hire     				       #
+#      	 		  Aim: To scrap the players data in the ODI cricket 			       #
+# 		        	Source for scraping: http://howstat.com/                               #
 ########################################################################################################
 
 import requests as req
