@@ -105,7 +105,7 @@ for i in range(65, 91):
 		for b in range(0,len(batsmen_data_temp)):
 			li0.append(int(batsmen_data_temp[b][0]))
 			li1.append(batsmen_data_temp[b][1])
-		li1 = list(cumulify(li1))	
+		# li1 = list(cumulify(li1))	
 		li2=[]
 		for b in range(0,len(li1)):
 			li2.append((li0[b],li1[b]))
@@ -122,7 +122,7 @@ for i in range(65, 91):
 		for bb in range(0,len(li3)):
 			yearwise_score.append(li3[bb][1])
 
-		complete_score_data.append(yearwise_score)
+		complete_score_data.append(list(cumulify(yearwise_score)))
 		# print(i,PlayerID)
 
 	li = []
